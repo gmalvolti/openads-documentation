@@ -358,32 +358,11 @@ Modifier la date de dépôt
 
 Dans le contexte de la modification d'un dossier d'instruction on peut modifier la date de dépôt.
 
-.. image:: instruction_action_modifier_date_depot.png
+.. image:: instruction_action_modifier_date.png
 
 * Disponible s'il n'y a qu'un événement d'instruction sur le dossier et s'il s'agit du récépissé de la demande (les événements de type **affichage** ne sont pas pris en compte).
 * La modification s'éffectue uniquement si l'année reste inchangée.
 * Si avant la modification, la date du dernier dépôt était celle du dépôt alors sa valeur est aussi modifiée.
-
-
-.. _instruction_action_modifier_date_affichage:
-
-Modifier la date d'affichage
-============================
-
-Dans le contexte de la modification d'un dossier d'instruction on peut modifier la date d'affichage à condition d'avoir la permission.
-
-.. image:: instruction_action_modifier_date_affichage.png
-
-.. note::
-    La date d'affichage, une fois renseignée, n'est plus modifiée par le traitement des événements d'instruction possédant la règle pour changer cette date.
-
-
-Attestation d'affichage
-=======================
-
-.. image:: instruction_action_attestation_affichage.png
-
-Cette action est un raccourcis qui permet de consulter le document PDF de la dernière édition finalisée d'affichage règlementaire.
 
 
 Régénérer le récépissé
@@ -644,7 +623,7 @@ affiché.
 Si l'option **consultation** de l'événement est activée lors de son
 :ref:`paramétrage<parametrage_dossiers_saisir_evenement>` alors l'action
 **automatique** disponible en bas du formulaire va ajouter les consultations
-avec leurs avis (hormis celles marquées explicitement comme non-visibles).
+avec leurs avis.
 
 .. note:: Si le mode :ref:`redaction_libre` est activé, les champs *Compléments* sont remplacés par les champs *Titre* et *Corps*
 
@@ -767,10 +746,9 @@ On arrive alors sur la page suivante où seules les dates de suivi sont modifiab
 
 .. note::
 
-  Pour avoir accès à cette action :
+  Pour avoir accès à cette action il faut que le dossier ne soit pas clôturé et :
    - si on est instructeur, soit être celui du dossier ou tout au moins de sa division, soit être un instructeur polyvalent de la commune du dossier dont l'instruction a été déléguée à la communauté ;
-   - sinon être soit de la communauté (par exemple un administrateur), soit de la commune du dossier (par exemple le profil *GUICHET SUIVI*) ;
-   - les instructeurs ont besoin de la permission spécifique *instruction_modification_dates_cloture* pour continuer le suivi des dates sur un dossier clôturé. Cette permission est octroyée par défaut aux profils :ref:`INSTRUCTEUR POLYVALENT<profil_instructeur_polyvalent>` et :ref:`INSTRUCTEUR POLYVALENT COMMUNE<profil_instructeur_polyvalent_commune>`.
+   - sinon être soit de la communauté (par exemple un administrateur), soit de la commune du dossier (par exemple le profil *GUICHET SUIVI*).
 
 Finalisation des documents du rapport d'instruction
 ===================================================
