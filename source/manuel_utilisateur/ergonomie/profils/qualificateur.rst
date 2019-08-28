@@ -81,8 +81,6 @@ Action(s) disponible(s) par onglet :
     - Récupérer les contraintes
     - Accéder au dossier d'instruction dans le SIG
     - Afficher l'édition de récapitulatif du dossier d'instruction
-    - Modifier manuellement de la date d'affichage
-    - Télécharger l'attestation d'affichage obligatoire
 
   - *Contrainte(s)* :
 
