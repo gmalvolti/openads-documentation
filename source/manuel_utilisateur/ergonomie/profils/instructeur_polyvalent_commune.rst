@@ -1,3 +1,5 @@
+.. _profil_instructeur_polyvalent_commune:
+
 ##############################
 INSTRUCTEUR POLYVALENT COMMUNE
 ##############################
@@ -103,6 +105,8 @@ En plus des actions identiques :
     - Télécharger le récépissé de la demande
     - Modifier l'affectation de l'instructeur
     - Supprimer le dossier d'instruction (sous plusieurs conditions)
+    - Modifier manuellement de la date d'affichage
+    - Télécharger l'attestation d'affichage obligatoire
 
 En plus des actions déjà disponibles sur les dossiers de sa division les instructeurs
 peuvent effectuer des action sur les dossiers de leur commune qui ne sont pas affectés à leur division :
@@ -146,6 +150,7 @@ peuvent effectuer des action sur les dossiers de leur commune qui ne sont pas af
     - Visualiser l'édition de l'événement d'instruction
     - Finaliser l'édition de l'événement d'instruction ajouté par un instructeur de la commune
     - Reprendre la rédaction de l'édition de l'événement d'instruction ajouté par un instructeur de la commune
+    - Réaliser le suivi des dates de l'événement d'instruction même si le dossiers clôturé
 
   - *Consultation(s)* :
 
