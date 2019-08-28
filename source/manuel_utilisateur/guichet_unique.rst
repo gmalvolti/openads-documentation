@@ -165,17 +165,23 @@ particulier à la demande d'un usager.
 
 .. _guichet_unique_affichage_reglementaire_registre:
 
-====================
-Imprimer le registre
-====================
+====================================
+Traitement et impression du registre
+====================================
 
 (:menuselection:`Guichet Unique --> Affichage Réglementaire --> Registre`)
 
-Cet écran permet d'imprimer le registre d'affichage réglementaire des dossiers
-d'instruction en cours. La validation de ce traitement ajoute sur chacun des
-dossiers d'instruction concernés un événement d'instruction spécifique
-(uniquement si c'est la première édition du dossier d'instruction) qui offre la
-possibilité d'imprimer une attestation d'affichage.
+Le traitement de génération du registre d'affichage réglementaire va :
+
+  * générer le registre que vous devez imprimer et afficher en mairie,
+  * créer une instruction d'attestation d'affichage suite au dépôt sur chaque dossier d'instruction en cours,
+  * mettre à jour la date d'affichage de chaque dossier d'instruction en cours.
+
+
+.. note::
+
+  * la date d'affichage est mise à jour uniquement sur les dossiers d'instruction pour lesquels elle n'avait pas été renseignée,
+  * l'instruction d'attestation d'affichage suite au dépôt est générée uniquement sur les dossiers d'instruction pour lesquels elle n'existe pas déjà.
 
 .. image:: guichet_unique_affichage_reglementaire_registre_formulaire.png
 
