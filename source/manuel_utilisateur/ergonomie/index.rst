@@ -606,6 +606,29 @@ Et les données techniques suivantes:
 
 Un lien sur chaque enregistrement permet d'accéder à la fiche de visualisation du dossier d'instruction.
 
+.. _widget_alert_delai_pre_instruction:
+
+Widget "Alerte délai de pré-instruction"
+----------------------------------------
+
+.. image:: widget_alert_delai_pre_instruction.png
+
+
+L'objet de ce widget est de présenter les dossiers à qualifier et dont la date limite n'est pas encoré expirée. 
+
+Ce widget est entièrement :ref:`paramétrable <administration_widget_alert_delai_pre_instruction>` par l'administrateur.
+
+Un lien *Voir +* permet d'afficher le listing complet des dossiers à qualifier, selon les paramètres du widget.
+Ces dossier sont trié par date limite de la plus proche à la moins proche.
+
+Le listing reprend les valeurs des paramètres *codes_datd*, *filtre*.
+
+Il présente les informations suivantes:
+
+- le libellé du dossier d'instruction,
+- le nom du pétitionnaire,
+- la date limite de modification
+
 Profils
 =======
 

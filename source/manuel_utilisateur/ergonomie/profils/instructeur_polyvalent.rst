@@ -79,6 +79,11 @@ Widget *Les derniers dossiers consultés*
 
 - Visualiser la liste des derniers dossiers consultés
 
+Widget *Alerte délai de pré-instruction*
+########################################
+
+- Visualiser la liste des dossiers d'instruction à qualifier et dont la date de délai n'est pas encore dépassée.
+
 Menu
 ----
 

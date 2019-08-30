@@ -504,6 +504,24 @@ Les arguments suivants sont paramétrables :
 
 * **restreindre_msg_non_lus** [par défaut *false*] - paramètre l'apparition de l'indicateur de message dans la colonne *message* du listing. *false*: si au moins un message manuel est présent sur le dossier. *true*: si au moins un message manuel NON LU est présent sur le dossier.
 
+.. _administration_widget_alert_delai_pre_instruction:
+
+alert_delai_pre_instruction
+===========================
+
+Ce widget présente les dossiers à qualifier dont la date limite n'est pas dépassé.
+Un lien *Voir +* permet d'afficher le listing complet des dossiers à qualifier, selon les paramètres du widget.
+Ces dossier sont trié par date limite de la plus proche à la moins proche.
+Les informations fonctionnelles sont disponibles :ref:`ici<widget_alert_delai_pre_instruction>`.
+
+Ce widget est par défaut affiché sur le tableau de bord des profils INTRUCTEUR POLYVALENT et INSTRUCTEUR POLYVALENT COMMUNE. 
+
+Les arguments suivants sont paramétrables :
+
+* **codes_datd** [par défaut tous les types sont affichés] - liste des types de dossiers à afficher séparés par un point-virgule. exemple : *PCI;PCA;DPS;CUa;CUb*
+
+* **filtre** [par défaut *instructeur*] - les filtres disponibles sont *aucun*, *division* et *instructeur*.
+
 
 .. _administration_composition:
 
